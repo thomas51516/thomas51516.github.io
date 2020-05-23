@@ -1,0 +1,144 @@
+		#login{
+			height: 500px;
+			width: 350px;
+			border-radius: 30px;
+			text-align: center;
+			box-shadow: 0px 0px 10px 0px lightgray;
+			margin : auto;
+			padding-top: 10px;
+			margin-top: 100px;
+			border: 1px solid blue;
+		}
+		.login{
+			border: none;
+			box-shadow: none;
+			height: 30px;
+			border-bottom: 2px solid green; 
+			width: 60%;
+			margin-top: 5px;
+		}
+		select{
+			border: none;
+			box-shadow: none;
+			height: 25px;
+			border-bottom: 2px solid green; 
+			width: 200px;
+		}
+		input[type="email"]:focus, input[type="password"]:focus{
+			border: none;
+			box-shadow: none;
+			height: 25px;
+			border-color: blue;
+			border-bottom: 2px solid green;
+			transition-duration: .7s;
+		}
+		input[type="email"], input[type="password"]{
+			border: none;
+			box-shadow: none;
+			height: 30px;
+			border-color: blue;
+			border-bottom: 2px solid blue; 
+			width: 63%;
+		}
+		.block:hover{
+			height: 25px;
+			width: 350px;
+		}
+		.classeLogin{
+			background-color: green;
+			width: 70%;
+			border: none;
+			color: white;
+			border-radius: 5px;
+			height: 30px;
+			box-shadow: 0px 2px 10px 2px black;
+			font-size: 18px;
+		}
+		.submitEleve{
+			background-color: green;
+			width: 450px;
+			border: none;
+			color: white;
+			border-radius: 20px;
+			height: 30px;
+			box-shadow: 0px 2px 10px 2px black;
+			font-size: 18px;
+		}
+		input[type="submit"]{
+			background-color: green;
+			width: 200px;
+			border: none;
+			color: white;
+			border-radius: 20px;
+			height: 35px;
+			transition-duration: .3s;
+		}
+		input[type="submit"]:hover{
+			background-color: black;
+			width: 200px;
+			border: none;
+			color: white;
+			border-radius: 20px;
+			height: 35px;
+			transition-duration: 1s;
+		}
+		h2{
+			color: green;
+		}
+		.powered{
+			margin-top: 80px;
+			font-size: 10px;
+		}
+		img{
+			height: 55px;
+			width: 150px;
+			box-shadow: 0px 2px 10px 2px gray;
+		}
+		h3{
+			text-shadow: 2px 2px 4px blue;
+		}
+
+		a{
+			text-decoration: none;
+			color: blue;
+		}
+		#eleve {
+
+			height: 500px;
+			width: 800px;
+			border-radius: 50px;
+			text-align: center;
+			box-shadow: 0px 5px 20px 5px black;
+			margin : auto;
+			padding-top: 10px;
+			margin-top: 200px;
+			border: 2px solid blue;
+		}
+		.input{
+			border: none;
+			box-shadow: none;
+			height: 25px;
+			border-bottom: 2px solid green; 
+			width: 450px;
+			margin-top: 5px;
+		}
+
+		.cool-link {
+		    display: inline-block;
+		    color: #000;
+		    text-decoration: none;
+		}
+
+		.cool-link::after {
+		    content: '';
+		    display: block;
+		    width: 0;
+		    height: 2px;
+		    background: #000;
+		    transition: width .3s;
+		}
+
+		.cool-link:hover::after {
+		    width: 100%;
+		    //transition: width .3s;
+		}
